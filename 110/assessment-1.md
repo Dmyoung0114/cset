@@ -1,10 +1,10 @@
-##1
+## 1
 Why do you think it's important that HTML is an open standard controlled by a specification rather than being owned by one person or company?
 
 
 if corrupt companies owned html they might be on our side now but have the power to change the rules of the internet later on down the line they could have the power to control whether or not the internet is behind a paywall  or have the power to block, censor citizens based on whatever speech they do and do not agree with, censor news or protest and completely control a narrative. There are so many capabilities one could do if they owned html. It would be very bad if a private company had the power to control something everyone uses and practically needs to get through everyday life now. The html should be open standard to protect everyone’s freedom of speech and accessibility to the internet it should be a free open source of information.
 
-##2
+## 2
 Describe the difference between an element and a tag. Use examples.
 
 <p> Hello World </p>
@@ -12,7 +12,7 @@ Describe the difference between an element and a tag. Use examples.
  tags are opening and closing statement <p> opening tag </p> closing tag 
 
 
-##3
+## 3
 In the lecture, I used two quotes from Yoda and Noam Chomsky to explain syntax and semantics. Explain these quotes and how they relate to the HTML you write.
 
 
