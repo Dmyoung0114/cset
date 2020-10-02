@@ -1,30 +1,51 @@
 html{
   width: 100%;
   height: 100%;
+  font-family: 'Courier New', Courier, monospace;
 }
 a{
 color: red;
-
 }
-
-h1{
+a:link{
+color: red;
+}
+a:visited{
+color: aqua;
+}
+.intro{
   color: white;
   font-size: 35px;
 
 }
-h2{
+.info{
   color: white;
-
-
+  font-size: 21px;
+  
 }
-h3{
+.edu{
   color: white;
+  font-size: 20px;
 }
-h4{
+.work{
   color: white;
+  font-size: 20px;
+}
+ul{
+  color: white;
+  border-radius: 25px;
+  background-color: black;
+ 
+}
+ol{
+  color: white;
+border-radius: 25px;
+  background-color: black;
+
 }
 li{
   color: white;
+  background-color: black;
+  
 }
 img.me{
   border-radius: 50%;
@@ -38,11 +59,18 @@ img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 body {
-
   background-color: #320014;
 }
 
-
 p{
-  color: white;
+color: white;
+border-radius: 25px;
+  background-color: black;
+  
 }
+header{
+
+text-align: center;
+
+}
+
