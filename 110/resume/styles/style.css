@@ -3,50 +3,62 @@ html{
   height: 100%;
   font-family: 'Courier New', Courier, monospace;
 }
+
 a{
 color: red;
 }
+
 a:link{
 color: red;
 }
+
 a:visited{
 color: aqua;
 }
+
 .intro{
   color: white;
   font-size: 35px;
+  border-radius: 25px;
+  background-color: black;
 
 }
+
 .info{
   color: white;
   font-size: 21px;
-  
 }
+
 .edu{
   color: white;
   font-size: 20px;
 }
+
 .work{
   color: white;
   font-size: 20px;
 }
+
 ul{
   color: white;
   border-radius: 25px;
   background-color: black;
- 
+
 }
+
 ol{
   color: white;
 border-radius: 25px;
   background-color: black;
 
 }
+
 li{
   color: white;
   background-color: black;
-  
+border-radius: 25px;
 }
+
 img.me{
   border-radius: 50%;
   border: 1px solid #ddd;
@@ -55,9 +67,11 @@ img.me{
   padding: 5px;
 
 }
+
 img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
+
 body {
   background-color: #320014;
 }
@@ -66,11 +80,58 @@ p{
 color: white;
 border-radius: 25px;
   background-color: black;
-  
+
 }
+
 header{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 5px;
+}
 
-text-align: center;
+.page{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact{
+  border-radius: 25px;
+  background-color: black;
 
 }
 
+.education{
+  display: flex;
+  flex-direction: column;
+  padding-right: 5px;
+  padding-left: 5px;
+
+}
+
+.work-exp{
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  border-radius: 25px;
+  background-color: black;
+  padding: 5px;
+}
+
+@media (max-width: 650px){
+main{
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  background-color: black;
+
+}
+}
