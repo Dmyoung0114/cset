@@ -24,6 +24,12 @@ color: aqua;
 
 }
 
+.about-desc{
+  color: white;
+  font-size: 20px;
+
+}
+
 .info{
   color: white;
   font-size: 21px;
@@ -90,12 +96,24 @@ header{
   text-align: center;
   padding: 5px;
 }
+.footing{
+  text-align: right;
+  padding-right: 10px;
+}
 
 .page{
   display: flex;
   flex-direction: column;
 }
 
+.about-me{
+  display: flex;
+  flex-direction: column;
+  padding-right: 5px;
+  padding-left: 5px;
+
+
+}
 .contact{
   border-radius: 25px;
   background-color: black;
