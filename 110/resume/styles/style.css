@@ -53,22 +53,18 @@ nav{
 
 ul{
   color: white;
-  border-radius: 25px;
-  background-color: black;
 
 }
 
 ol{
   color: white;
-border-radius: 25px;
-  background-color: black;
+
 
 }
 
 li{
   color: white;
-  background-color: black;
-border-radius: 25px;
+
 }
 
 img.me{
@@ -90,8 +86,6 @@ body {
 
 p{
 color: white;
-border-radius: 25px;
-  background-color: black;
 
 }
 
